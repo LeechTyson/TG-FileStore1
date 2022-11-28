@@ -6,7 +6,7 @@ import os
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "19030904"))
 	API_HASH = os.environ.get("API_HASH", "1fe97b891a1912e874a9ab1c21aee9cd")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5243536425:AAEtpQ-FisPjf38yTrRzvOMUt3kbD6WwZfk")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5870053912:AAHCRcPm1o_Bd6T3PCkU1gNrmdlCY0rPOJs")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tyson_Files_2000_Bot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001718561628"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1471883657"))
